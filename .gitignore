@@ -1,0 +1,19 @@
+# Object files
+*.o
+
+# Preprocessed files
+*.i
+
+# Assembly output
+*.s
+
+# Executables
+*.exe
+*.out
+
+# Editors/OS files
+*.swp
+.DS_Store
+
+# logs 
+*.log
