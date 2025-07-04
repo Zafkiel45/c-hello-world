@@ -1,18 +1,18 @@
 #include <stdio.h>
 
+#define LOWER 0
+#define UPPER 300
+#define STEP  20
+
 int main() {
   float celsius, fahr;
-  float step, upper, lower; 
 
-  step = 20;
-  upper = 300;
-  lower = 0;
-
-  celsius = upper; 
+  celsius = UPPER; 
   printf("Celsious --- Fahrenheit\n");
-  while(celsius >= lower) {
+  
+  while(celsius >= LOWER) {
     fahr = (celsius * (9.0/5.0)) + 32;
     printf("%3.0f\t%6.1f\n", celsius, fahr);
-    celsius -= step;
+    celsius -= STEP;
   };
 }
