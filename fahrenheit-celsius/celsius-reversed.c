@@ -9,7 +9,6 @@ int main() {
 
   celsius = UPPER; 
   printf("Celsious --- Fahrenheit\n");
-  
   while(celsius >= LOWER) {
     fahr = (celsius * (9.0/5.0)) + 32;
     printf("%3.0f\t%6.1f\n", celsius, fahr);
