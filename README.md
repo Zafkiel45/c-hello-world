@@ -49,3 +49,14 @@ The functions from `stdion.h`, `getchar` and `putchar` allows me to get the next
 - Print it.
 
 I know, the "C" language does not get the bits in memory. There are many tools, pointers and etc... But, I have not reach this topic yet.
+
+# Smalls exercies 
+
+Date: 07/06/2025
+
+Finished some small (but difficult) exercises. The first is a `line-count`. It was easy. I learned that escapes are character too. In addition, each `character` is read a integer in expressions. The value of each character is based on ASCII table.
+
+The second exercise was difficult. after attempts,  I ask to ChatGpt, but it returned a bad answer. Some way, I known, that code was bad. So I tryed once more, and I finally reach it. 
+
+The third exercise was confuse for me. In the book, I didn't understand anything. I'm Brazilian, so the main problem was the idiom barrer, but with help, I finally do it. 
+
